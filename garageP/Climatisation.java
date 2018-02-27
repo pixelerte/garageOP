@@ -1,13 +1,15 @@
 package garageP;
 
-public class Climatisation implements Option{
+import java.io.Serializable;
 
-	@Override
+public class Climatisation implements Option, Serializable{
+
+	
 	public double getPrix() {
 		return 347.3;
 	}
 
-	@Override
+	
 	public String toString() {
 		return "Climatisation " + getPrix();
 	}

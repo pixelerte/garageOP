@@ -2,8 +2,9 @@ package garageP;
 
 public class Main {
     public static void main(String[] args) {
-      	  
+    	Garage garage = new Garage();
       	 
+    	
       	 System.out.println(garage);
       	 
       	 Vehicule lag1 = new Lagouna();
@@ -50,16 +51,6 @@ public class Main {
        }
     
     
-    public Garage load() {
-    	if Garage
-    	
-    	
-    }
-    
-    public void save(Garage garage) {
-    	
-    	
-    }
     
     
     

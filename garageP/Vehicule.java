@@ -1,9 +1,11 @@
 package garageP;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Vehicule {
+@SuppressWarnings("serial")
+public class Vehicule implements Serializable{
 	
 	private double prix;
 	private String nom;
@@ -34,7 +36,7 @@ public class Vehicule {
 	@Override
 	public String toString() {
 		String resulta;
-		resulta = "+ Voiture " + marque + " : " + nom + " " + moteur.toString() + option + " D'une valeur totale de " + prix + "€";
+		resulta = "+ Voiture " + marque + " : " + nom + " " + moteur.toString() + option + " D'une valeur totale de " + prix + " €";
 		
 			
 			
@@ -71,12 +73,5 @@ public class Vehicule {
 	public Marque getMarque() {
 		return marque;
 	}
-	
-	
-
-
-	
-
-
 	
 }

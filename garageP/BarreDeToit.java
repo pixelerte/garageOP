@@ -1,6 +1,8 @@
 package garageP;
 
-public class BarreDeToit implements Option{
+import java.io.Serializable;
+
+public class BarreDeToit implements Option, Serializable{
 
 	@Override
 	public double getPrix() {

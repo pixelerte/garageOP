@@ -1,6 +1,8 @@
 package garageP;
 
-public class SiegeChauffant implements Option{
+import java.io.Serializable;
+
+public class SiegeChauffant implements Option, Serializable{
 	
 
 	@Override

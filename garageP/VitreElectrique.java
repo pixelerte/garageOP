@@ -1,6 +1,8 @@
 package garageP;
 
-public class VitreElectrique implements Option{
+import java.io.Serializable;
+
+public class VitreElectrique implements Option, Serializable{
 
 	@Override
 	public double getPrix() {

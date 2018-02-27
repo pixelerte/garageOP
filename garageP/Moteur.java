@@ -1,6 +1,8 @@
 package garageP;
 
-public class Moteur {
+import java.io.Serializable;
+
+public class Moteur implements Serializable{
 	protected TypeMoteur type;
 	private String cylindre;
 	private double prix;

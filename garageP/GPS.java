@@ -1,6 +1,8 @@
 package garageP;
 
-public class GPS implements Option{
+import java.io.Serializable;
+
+public class GPS implements Option, Serializable{
 
 	@Override
 	public double getPrix() {
